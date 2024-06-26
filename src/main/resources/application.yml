@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: aop-practices
+  datasource:
+    url: jdbc:postgresql://localhost:5432/product
+    username: postgres
+    password: Prerna@12345
+    jpa:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+server:
+  port: 8081
